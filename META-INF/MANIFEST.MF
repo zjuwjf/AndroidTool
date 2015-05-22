@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AndroidTool
+Bundle-SymbolicName: AndroidTool; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: lib/dom4j-1.6.1.jar,
+ lib/freemarker.jar,
+ .
+Bundle-Activator: androidtool.Activator
+Bundle-Vendor: POPMENU
+Export-Package: androidtool,
+ androidtool.popup.actions,
+ androidtool.popup.handler,
+ androidtool.popup.handler.template,
+ androidtool.popup.handler.test
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core;bundle-version="3.7.3",
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
